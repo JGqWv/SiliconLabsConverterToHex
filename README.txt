@@ -6,7 +6,7 @@ Using:
 -in menu Select Memmory select "Code"
 -type Starting addr and Ending addr
 -selected output derictory and type name of generated file (example C:\Users\user\Documents\extracted\firmware.bin)
--the program should create file with data in ASCII is these format:
+-the program should create file with data in ASCII:
 0F
 28
 30
@@ -15,7 +15,7 @@ ff
 12
 21
 and ect.
--start script, example: python convert.python
+-start script. Example: python convert.python
 script will create a file with output in intel hex format:
 :10000000HEXHEXHEXHEXHEXHEXHEXHEXHEXHEXHEFF
 :10001000HEXHEXHEXHEXHEXHEXHEXHEXHEXHEXHEFF
